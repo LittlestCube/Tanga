@@ -1,0 +1,3 @@
+Changes in v1.4.2:
+
+	- Disabled stripPunctuation function, at least for now.
