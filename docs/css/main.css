@@ -1,0 +1,137 @@
+body {
+    margin-top: 60px;
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+}
+
+#leftTitle {
+    color: white;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+#leftTitle img {
+    height: 80%;
+}
+
+#rightLinks {
+    float: right;
+    margin-right: 50px;
+    height: 60px;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#rightLinks a {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+#rightLinks a:hover {
+    background: #ffa726;
+}
+
+
+.button {
+    padding: 13px;
+    background: #03a9f4;
+    border-radius: 22px;
+    border: black;
+    border: 1px white;
+    border-style: solid;
+    text-decoration: none;
+    color: #fff;
+    transition: color, border .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #03a9f4;
+    border: 1px solid #03a9f4;
+    transition: color, border .7s;
+
+}
+
+#setupIntructions {
+    background-image: linear-gradient(220deg, #e65100 0%, #f87600 74%);
+    color: white;
+    width: 100%;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#setupIntructions h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grid3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid3>div {
+    text-align: center;
+    width: 33%;
+    margin: 50px;
+}
+
+#setupIntructions h4 {
+    margin-bottom: 50px;
+
+}
+
+#setupIntructions p {
+    font-size: 1.6rem;
+    margin: 0px;
+}
+
+#about {
+    min-height: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#about p {
+    width: 100%;
+    text-align: left;
+}
+
+#about img {
+    width: 50%;
+    margin: 0 auto;
+}
