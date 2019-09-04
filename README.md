@@ -4,7 +4,7 @@ Welcome back. I suppose you're wondering what happened to the old repo. It can b
 
 The EssayWriter is, as of now, being renamed to Tanga.
 
-![Tanga Logo](https://raw.githubusercontent.com/LittlestCube/Tanga-Releases/master/Tanga-repo-image.png "Tanga Logo")
+![Tanga Logo](https://raw.githubusercontent.com/LittlestCube/Tanga-Releases/master/docs/full-logo.png "Tanga Logo")
 
 Like it? It's pretty dope (also it's pronounced TAN-ja), but why rename it, you ask?
 
