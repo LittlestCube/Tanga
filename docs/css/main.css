@@ -2,6 +2,11 @@ body {
     width: 100%;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .hide {
     display: none;
 }
@@ -15,6 +20,9 @@ body {
     min-width: 480px;
 }
 
+#header a {
+    text-decoration: none;
+}
 
 #leftTitle {
     color: white;
@@ -105,6 +113,12 @@ body {
     margin: 0 auto;
 }
 
+#setupIntructions a{
+    text-align: center; 
+    margin: 0 auto;
+    color: white;
+}
+
 .grid3 {
     width: 100%;
     display: flex;
@@ -161,4 +175,16 @@ body {
 #about img {
     width: 50%;
     margin: 0 auto;
+}
+
+
+#mainBody{
+    padding-top: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#mainBody h1{
+    text-align: center;
+
 }
