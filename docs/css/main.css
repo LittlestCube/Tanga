@@ -1,6 +1,9 @@
 body {
-    margin-top: 60px;
     width: 100%;
+}
+
+.hide {
+    display: none;
 }
 
 #header {
@@ -9,7 +12,9 @@ body {
     margin: 0;
     height: 60px;
     width: 100%;
+    min-width: 480px;
 }
+
 
 #leftTitle {
     color: white;
@@ -21,6 +26,7 @@ body {
     margin-left: 50px;
 
 }
+
 
 #leftTitle img {
     height: 80%;
@@ -35,6 +41,7 @@ body {
     align-items: center;
 }
 
+
 #rightLinks a {
     color: white;
     height: 100%;
@@ -42,8 +49,9 @@ body {
     align-items: center;
     padding-right: 15px;
     padding-left: 15px;
-    transition: .6s;
+    transition: background .6s;
     cursor: pointer;
+    font-size: 1.6rem;
 }
 
 #rightLinks a:hover {
@@ -64,6 +72,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .button:hover {
@@ -79,7 +88,8 @@ body {
     color: white;
     width: 100%;
 
-    height: 100%;
+    margin-top: 60px;
+    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +105,7 @@ body {
     margin: 0 auto;
 }
 
-.grid3{
+.grid3 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -106,6 +116,21 @@ body {
     text-align: center;
     width: 33%;
     margin: 50px;
+}
+
+.grid1 {
+    width: 100%;
+}
+
+.grid1>div {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.grid1 .downarrows {
+    text-align: center;
+    width: 100%;
 }
 
 #setupIntructions h4 {
@@ -124,6 +149,8 @@ body {
     margin-left: 100px;
     font-size: 1.2rem;
     text-align: center;
+    padding-top: 60px;
+    margin-bottom: 100px;
 }
 
 #about p {
