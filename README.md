@@ -32,7 +32,7 @@ essay written with the EssayWriter, and it received an A. I knew I was on the ri
 Later, I decided to coin a new name for the EssayWriter itself. I chose the name Tanga, and here
 we are.
 
-Over time, I have added more and more to the algorithm and the funcitonality of the Writer 
+Over time, I have added more and more to the algorithm and the functionality of the Writer 
 itself, and now those changes can be found here.
 
 I hope it helps you write your essays.
