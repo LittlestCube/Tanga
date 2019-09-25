@@ -39,8 +39,17 @@ a {
     justify-content: center;
 }
 
-#leftTitle img {
+#leftTitle a img {
     height: 80%;
+    float: left;
+}
+
+#leftTitle a {
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 #rightLinks {
